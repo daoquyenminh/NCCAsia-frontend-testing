@@ -54,6 +54,7 @@ body{
     width: 100%;
     margin: 0 auto;
     
+    
 }
 .content .logo  {
     margin: 20px auto 30px;
@@ -89,13 +90,24 @@ body{
     margin-top: 38px;
     width: 33%;
     float: left;
+    padding:10px ;
+}
+.item-center {
+    padding: 0 20px 0 20px;
 }
 .item h2 {
     font-size: 24px;
+    margin-bottom: 20px;
 }
 .item img {
     float: left;
     margin-right: 10px;
+    height: 128px;
+    width: 128px;
+}
+.item p {
+    font-size: 16px;
+    line-height: 18.75px;
 }
 
 
