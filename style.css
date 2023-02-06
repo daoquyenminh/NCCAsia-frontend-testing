@@ -1,0 +1,125 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+}
+.sidebar {
+    float: left;
+    max-height: 100%;
+    width: 150px;
+    left: 0;
+    top: 0;
+    background-color: #333;
+    color: white;
+    
+}
+  
+
+.sidebar a {
+    height: 44px;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid gray;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    line-height: 18.75px;
+    
+    
+}
+.sidebar a:hover {
+      background-color: gray;
+}
+  
+
+.content {
+    
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.content .logo  {
+    margin: 20px auto 30px;
+    width: fit-content;
+}
+.content .logo img  {
+    height: 122px;
+    width: 310px;
+}
+
+.inner-content {
+    width: 1510px;
+    margin: 0px auto;
+    
+}
+.paragraph {
+    width: 1510px;
+    height: 210px;
+    background: #EFEFEF;
+    text-align: center;
+    padding: 38px 269px 0 269px;
+}
+.paragraph h3 {
+    margin-bottom: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+}
+.paragraph p {
+    width: 972px;
+}
+
+.item {
+    margin-top: 38px;
+    width: 33%;
+    float: left;
+}
+.item h2 {
+    font-size: 24px;
+}
+.item img {
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: auto;
+    height: 79px;;
+    width: 100%;
+    border-top: 1px solid grey;
+    padding-left:129px;
+    padding-top: 30px;
+    
+}
+.footer span {
+    
+    
+}
